@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardian Moto - Apresentação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="presentation.css">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <main id="presentation-container">
+        <!-- Slide 1: Título -->
+        <section class="presentation-slide flex flex-col justify-center items-center text-center bg-gray-900">
+            <div
+                class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(14,165,233,0.3),rgba(255,255,255,0))] opacity-40">
+            </div>
+            <div data-animate
+                class="w-24 h-24 mb-6 border-4 border-cyan-400 rounded-full flex items-center justify-center bg-cyan-400/10">
+                <i data-lucide="shield-check" class="w-12 h-12 text-cyan-400"></i>
+            </div>
+            <h1 data-animate class="text-6xl md:text-8xl font-bold tracking-tighter text-white">Guardian Moto</h1>
+            <p data-animate class="mt-4 text-xl md:text-2xl text-gray-300 tracking-wide">Reinventando a Segurança para
+                Motociclistas</p>
+        </section>
+
+        <!-- Slide 2: O Problema -->
+        <section class="presentation-slide layout-spacious bg-slate-900">
+            <div class="w-full max-w-6xl mx-auto">
+                <h2 data-animate class="text-4xl md:text-5xl font-bold text-center text-cyan-400 mb-12">A
+                    Vulnerabilidade Crítica do Motociclista</h2>
+                <div class="grid md:grid-cols-2 gap-8 text-left">
+                    <div data-animate class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 overflow-hidden">
+                        <div class="flex items-center gap-4 mb-4">
+                            <!-- Ícone substituído por imagem de um espelho retrovisor, simbolizando o ponto cego -->
+                            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=50&h=50&fit=crop"
+                                alt="Visão do retrovisor de um carro" class="w-10 h-10 rounded-full object-cover">
+                            <h3 class="text-2xl font-semibold">Ponto Cego</h3>
+                        </div>
+                        <p class="text-lg text-gray-300"><strong class="text-white">75% dos acidentes</strong> ocorrem
+                            em cruzamentos e mudanças de faixa, onde a visibilidade é um fator crítico.</p>
+                        <div
+                            class="mt-4 h-32 bg-gray-700 rounded-md flex items-center justify-center text-gray-500 overflow-hidden">
+                            <!-- Imagem representando uma situação de risco no trânsito -->
+                            <img src="https://imgs.jusbr.com/publications/images/c59a2861626952e22a714096caa6e578"
+                                alt="Cenário de tráfego intenso visto pelo retrovisor"
+                                class="w-full h-full object-cover">
+                        </div>
+                    </div>
+
+                    <div data-animate class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 overflow-hidden">
+                        <div class="flex items-center gap-4 mb-4">
+                            <!-- Ícone substituído por imagem de equipe de emergência -->
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483610.png" alt="Paramédicos em ação"
+                                class="w-10 h-10 rounded-full object-cover">
+                            <h3 class="text-2xl font-semibold">Tempo de Resposta</h3>
+                        </div>
+                        <p class="text-lg text-gray-300">A demora no acionamento do socorro após um acidente é um fator
+                            <strong class="text-white">determinante para a sobrevivência</strong>.
+                        </p>
+                        <div
+                            class="mt-4 h-32 bg-gray-700 rounded-md flex items-center justify-center text-gray-500 overflow-hidden">
+                            <!-- Imagem de uma ambulância em alta velocidade, simbolizando a urgência -->
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZ-i7IdHKrCjJJ4DvIqUfqS3tfhOjI1Rn1Q&s"
+                                alt="Ambulância respondendo a um chamado de emergência"
+                                class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                <p data-animate class="text-center mt-12 text-xl text-gray-400">O impacto: Perda de vidas, custos
+                    elevados para a saúde e insegurança generalizada.</p>
+            </div>
+        </section>
+
+        <!-- Slide 3: Nossa Missão -->
+        <section class="presentation-slide layout-spacious bg-gray-900 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 data-animate class="text-4xl md:text-5xl font-bold text-white mb-12">Proteger o Motociclista em Cada
+                    Jornada</h2>
+                <div class="space-y-8 text-xl text-gray-300">
+                    <p data-animate><strong class="text-cyan-400">Visão:</strong> Criar um futuro onde cada motociclista
+                        esteja equipado com tecnologia de segurança proativa e reativa.</p>
+                    <p data-animate><strong class="text-cyan-400">Missão:</strong> Reduzir drasticamente acidentes e
+                        fatalidades através de um sistema inteligente que antecipa perigos e automatiza o pedido de
+                        ajuda.</p>
+                    <p data-animate
+                        class="mt-8 p-6 bg-cyan-900/20 border border-cyan-400/30 rounded-lg text-2xl font-medium text-white">
+                        Nosso compromisso é ser o <strong class="text-cyan-300">"anjo da guarda"</strong> de todo
+                        motociclista.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 4: A Solução -->
+        <section class="presentation-slide layout-split bg-slate-900">
+            <div data-animate class="flex flex-col justify-center items-start p-8">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">A Solução: <span
+                        class="text-cyan-400">Guardian Moto</span></h2>
+                <p class="text-xl text-gray-300 mb-8">Um sistema de hardware e software integrado que oferece duas
+                    camadas de proteção:</p>
+                <div class="space-y-6 w-full">
+                    <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                        <h3 class="text-2xl font-semibold text-white">1. Prevenção de Acidentes</h3>
+                        <p class="text-gray-300">Alertas de ponto cego em tempo real.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                        <h3 class="text-2xl font-semibold text-white">2. Resposta a Emergências</h3>
+                        <p class="text-gray-300">Detecção automática de queda e acionamento de socorro.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-animate class="bg-slate-900 rounded-lg flex items-center justify-center p-4 md:p-8">
+                <img src="https://r2.flowith.net/files/o/1755116490260-guardian_moto_product_shot_index_1@1024x1024.png"
+                    alt="Guardian Moto device concept"
+                    class="w-full h-auto max-h-[60vh] object-contain rounded-lg shadow-2xl">
+            </div>
+        </section>
+
+        <!-- Slide 5: Funcionalidade #1: SAPC -->
+        <section class="presentation-slide bg-gray-900">
+            <div class="text-center w-full max-w-6xl">
+                <h2 data-animate class="text-4xl md:text-5xl font-bold mb-2">Funcionalidade #1: Sistema de Alerta de
+                    Ponto Cego</h2>
+                <p data-animate class="text-xl text-cyan-400 mb-12">(SAPC)</p>
+
+                <!-- Container principal que muda para 2 colunas em telas médias (md) -->
+                <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+
+                    <!-- Coluna 1: Imagem com Altura Máxima Controlada -->
+                    <div data-animate
+                        class="w-full rounded-lg overflow-hidden shadow-lg border border-cyan-400/20 md:max-h-80">
+                        <img src="https://r2.flowith.net/files/o/1755116489807-motorcycle_blind_spot_detection_night_highway_index_2@1024x1024.png"
+                            alt="Motorcycle blind spot detection on a highway at night"
+                            class="w-full h-full object-cover">
+                    </div>
+
+                    <!-- Coluna 2: Caixas de Funcionalidades -->
+                    <div class="grid gap-6 text-left">
+                        <div data-animate class="bg-slate-800 p-4 rounded-lg">
+                            <i data-lucide="radio-tower" class="w-8 h-8 text-cyan-400 mb-2"></i>
+                            <h3 class="text-xl font-semibold">Tecnologia mmWave</h3>
+                            <p class="text-gray-400">Sensores de radar precisos em qualquer condição climática.</p>
+                        </div>
+                        <div data-animate class="bg-slate-800 p-4 rounded-lg">
+                            <i data-lucide="siren" class="w-8 h-8 text-cyan-400 mb-2"></i>
+                            <h3 class="text-xl font-semibold">Alertas Intuitivos</h3>
+                            <p class="text-gray-400">LEDs nos retrovisores e opções de alertas sonoros/vibratórios.</p>
+                        </div>
+                        <div data-animate class="bg-slate-800 p-4 rounded-lg">
+                            <i data-lucide="filter" class="w-8 h-8 text-cyan-400 mb-2"></i>
+                            <h3 class="text-xl font-semibold">Filtro Inteligente</h3>
+                            <p class="text-gray-400">Minimiza falsos positivos distinguindo ameaças reais.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: Funcionalidade #2: SSI -->
+        <section class="presentation-slide layout-spacious bg-slate-900">
+            <div class="text-center w-full max-w-7xl">
+                <h2 data-animate class="text-4xl md:text-5xl font-bold mb-2">Funcionalidade #2: Sistema de Socorro
+                    Inteligente</h2>
+                <p data-animate class="text-xl text-cyan-400 mb-8">(SSI)</p>
+                <div data-animate
+                    class="mt-8 max-w-5xl mx-auto bg-gray-800/20 rounded-lg shadow-2xl p-1 md:p-2 border border-cyan-400/20 overflow-hidden">
+                    <!-- O contêiner da imagem agora tem uma altura máxima e um fundo para preencher o espaço extra -->
+                    <div class="h-[450px] flex justify-center items-center bg-black/20 rounded-md p-2">
+                        <img src="https://r2.flowith.net/files/o/1755116464485-smart_rescue_infographic_index_3@1024x1024.png"
+                            alt="Infographic explaining the Smart Rescue System process"
+                            class="w-full h-full object-contain">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Diferenciais -->
+        <section class="presentation-slide layout-spacious bg-gray-900">
+            <h2 data-animate class="text-4xl md:text-5xl font-bold text-center mb-12">Por que o Guardian Moto é <span
+                    class="text-cyan-400">Único</span>?</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl">
+                <div data-animate
+                    class="bg-slate-800 p-6 rounded-lg border border-gray-700 hover:border-cyan-400 transition-colors">
+                    <i data-lucide="git-merge" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Sistema Duplo Integrado</h3>
+                    <p class="text-gray-400 mt-2">Combina prevenção (SAPC) e reação (SSI) em uma solução coesa.</p>
+                </div>
+                <div data-animate
+                    class="bg-slate-800 p-6 rounded-lg border border-gray-700 hover:border-cyan-400 transition-colors">
+                    <i data-lucide="cpu" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Hardware de Nível Automotivo</h3>
+                    <p class="text-gray-400 mt-2">Sensores de radar mmWave superiores aos ultrassônicos comuns.</p>
+                </div>
+                <div data-animate
+                    class="bg-slate-800 p-6 rounded-lg border border-gray-700 hover:border-cyan-400 transition-colors">
+                    <i data-lucide="zap" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Inteligência de Software</h3>
+                    <p class="text-gray-400 mt-2">Algoritmos avançados com potencial para atualizações OTA.</p>
+                </div>
+                <div data-animate
+                    class="bg-slate-800 p-6 rounded-lg border border-gray-700 hover:border-cyan-400 transition-colors">
+                    <i data-lucide="smartphone-off" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Independência do Smartphone</h3>
+                    <p class="text-gray-400 mt-2">O alerta de ponto cego opera de forma 100% autônoma.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 8: Análise SWOT -->
+        <section class="presentation-slide layout-spacious bg-slate-900">
+            <h2 data-animate class="text-4xl md:text-5xl font-bold text-center mb-12">Análise SWOT</h2>
+            <div class="h-[450px] flex justify-center items-center bg-black/20 rounded-md p-2">
+                <img src="https://r2.flowith.net/files/o/1755116472168-swot_analysis_conceptual_diagram_index_4@1024x1024.png"
+                    alt="SWOT Analysis diagram for Guardian Moto" class="w-full h-full object-contain">
+            </div>
+        </section>
+
+        <!-- Slide 9: Modelo de Negócio -->
+        <section class="presentation-slide layout-spacious bg-gray-900">
+            <h2 data-animate class="text-4xl md:text-5xl font-bold text-center mb-12">Proposta de Valor e Modelo de
+                Negócio</h2>
+            <div class="grid lg:grid-cols-3 gap-8 max-w-7xl">
+                <div data-animate class="bg-slate-800 p-6 rounded-lg">
+                    <i data-lucide="users" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-2xl font-semibold">Público-Alvo</h3>
+                    <p class="text-gray-300 mt-2"><strong>Primário:</strong> Commuters e entusiastas de viagens
+                        (touring).</p>
+                    <p class="text-gray-300 mt-1"><strong>Secundário:</strong> Frotas de entrega e moto-táxi.</p>
+                </div>
+                <div data-animate class="bg-slate-800 p-6 rounded-lg col-span-1 lg:col-span-2">
+                    <i data-lucide="gem" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-2xl font-semibold">Proposta de Valor</h3>
+                    <p class="text-gray-300 mt-2 text-lg">"Viaje com a confiança de que você está protegido por uma
+                        tecnologia que vê o que você não vê e age quando você não pode."</p>
+                </div>
+                <div data-animate class="bg-slate-800 p-6 rounded-lg col-span-1 lg:col-span-3">
+                    <i data-lucide="dollar-sign" class="w-10 h-10 text-cyan-400 mb-4"></i>
+                    <h3 class="text-2xl font-semibold">Modelo de Receita</h3>
+                    <p class="text-gray-300 mt-2"><strong>Inicial:</strong> Venda direta do kit de hardware.</p>
+                    <p class="text-gray-300 mt-1"><strong>Futuro:</strong> Assinatura para serviços premium (análise de
+                        pilotagem, descontos em seguro).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 10: Go-to-Market -->
+        <section class="presentation-slide layout-spacious bg-slate-900">
+            <h2 data-animate class="text-4xl md:text-5xl font-bold text-center mb-12">Estratégia de Go-to-Market</h2>
+            <div class="flex flex-col md:flex-row gap-8 w-full max-w-6xl">
+                <div data-animate class="flex-1 bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-cyan-400">Canais de Venda</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <span class="text-sm font-bold text-gray-400">FASE 1: LANÇAMENTO</span>
+                            <p class="text-lg text-white">E-commerce direto (D2C) e lojas especializadas.</p>
+                        </div>
+                        <div>
+                            <span class="text-sm font-bold text-gray-400">FASE 2: EXPANSÃO</span>
+                            <p class="text-lg text-white">Parcerias com concessionárias e oficinas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-animate class="flex-1 bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-cyan-400">Parcerias Estratégicas</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="shield" class="w-6 h-6 text-white mt-1 shrink-0"></i>
+                            <p class="text-lg text-white"><strong>Seguradoras:</strong> Oferecer descontos em apólices.
+                            </p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="factory" class="w-6 h-6 text-white mt-1 shrink-0"></i>
+                            <p class="text-lg text-white"><strong>Fabricantes (OEMs):</strong> Integrar como item de
+                                fábrica.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="megaphone" class="w-6 h-6 text-white mt-1 shrink-0"></i>
+                            <p class="text-lg text-white"><strong>Influenciadores:</strong> Gerar credibilidade e
+                                alcance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 11: Arquitetura Hardware -->
+        <section class="presentation-slide layout-split bg-gray-900">
+            <div data-animate class="bg-slate-800/30 rounded-lg flex items-center justify-center p-2 h-full">
+                <img src="https://r2.flowith.net/files/o/1755116482822-guardian_moto_technical_architecture_index_5@1024x1024.png"
+                    alt="Guardian Moto technical hardware architecture diagram"
+                    class="w-full h-full object-contain rounded-md">
+            </div>
+            <div data-animate class="flex flex-col justify-center p-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-cyan-400 mb-6">Arquitetura de Hardware</h2>
+                <ul class="space-y-4 text-lg">
+                    <li><strong class="text-white">1. ECU:</strong> Cérebro do sistema (ARM Cortex-M4).</li>
+                    <li><strong class="text-white">2. Sensores de Radar (2x):</strong> mmWave 24GHz para SAPC.</li>
+                    <li><strong class="text-white">3. Módulo IMU:</strong> Acelerômetro/Giroscópio para SSI.</li>
+                    <li><strong class="text-white">4. Módulo GPS/GSM:</strong> Geolocalização e comunicação.</li>
+                    <li><strong class="text-white">5. Interface de Alerta:</strong> LEDs de alta luminosidade.</li>
+                </ul>
+                <p class="mt-8 text-md bg-gray-800 p-4 rounded-lg text-gray-300">Design compacto, à prova d'água (IP67)
+                    e de fácil integração.</p>
+            </div>
+        </section>
+
+        <!-- Slide 12: Arquitetura Software -->
+        <section class="presentation-slide bg-slate-900">
+            <h2 data-animate class="text-4xl md:text-5xl font-bold text-center mb-12">Arquitetura de Software e Dados
+            </h2>
+            <div class="w-full max-w-6xl grid md:grid-cols-3 gap-8">
+                <div data-animate class="bg-gray-800 p-6 rounded-lg text-center">
+                    <i data-lucide="cpu" class="w-12 h-12 text-cyan-400 mx-auto mb-4"></i>
+                    <h3 class="text-2xl font-semibold">Firmware Embarcado</h3>
+                    <p class="text-gray-300 mt-2">Escrito em C/C++ para performance. Algoritmos de fusão de sensores e
+                        lógica de detecção.</p>
+                </div>
+                <div data-animate class="bg-gray-800 p-6 rounded-lg text-center">
+                    <i data-lucide="cloud" class="w-12 h-12 text-cyan-400 mx-auto mb-4"></i>
+                    <h3 class="text-2xl font-semibold">Plataforma Cloud</h3>
+                    <p class="text-gray-300 mt-2">Recebimento de dados de performance (anônimos) e gerenciamento de
+                        atualizações OTA.</p>
+                </div>
+                <div data-animate class="bg-gray-800 p-6 rounded-lg text-center">
+                    <i data-lucide="smartphone" class="w-12 h-12 text-cyan-400 mx-auto mb-4"></i>
+                    <h3 class="text-2xl font-semibold">Aplicativo Móvel</h3>
+                    <p class="text-gray-300 mt-2">Configuração do dispositivo, cadastro de contatos e visualização de
+                        dados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 13: Roadmap -->
+        <section class="presentation-slide bg-gray-900">
+            <h2 data-animate class="text-4xl md:text-5xl font-bold text-center mb-12">Roadmap do Produto</h2>
+            <div class="w-full max-w-5xl">
+                <div data-animate class="relative pl-8 py-4 border-l-2 border-cyan-400">
+                    <div class="absolute -left-3 top-4 w-5 h-5 bg-cyan-400 rounded-full border-4 border-gray-900"></div>
+                    <span class="text-sm font-bold text-cyan-400">FASE 1: MVP (Próximos 6 meses)</span>
+                    <p class="text-lg text-white">Funcionalidades SAPC e SSI operacionais. Kit de instalação universal.
+                        Validação de mercado com usuários beta.</p>
+                </div>
+                <div data-animate class="relative pl-8 py-4 border-l-2 border-gray-600">
+                    <div class="absolute -left-3 top-4 w-5 h-5 bg-gray-600 rounded-full border-4 border-gray-900"></div>
+                    <span class="text-sm font-bold text-gray-400">FASE 2: V2.0 (12-18 meses)</span>
+                    <p class="text-lg text-white">Integração com intercomunicadores, painel de análise de pilotagem,
+                        início de negociações com OEMs.</p>
+                </div>
+                <div data-animate class="relative pl-8 py-4 border-l-2 border-gray-600">
+                    <div class="absolute -left-3 top-4 w-5 h-5 bg-gray-600 rounded-full border-4 border-gray-900"></div>
+                    <span class="text-sm font-bold text-gray-400">VISÃO FUTURA (2+ anos)</span>
+                    <p class="text-lg text-white">IA para análise preditiva de risco, dashcam integrada e rede V2V para
+                        alertas de perigo na via.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 14: Contato -->
+        <section class="presentation-slide bg-slate-900 text-center">
+            <div class="max-w-3xl">
+                <h2 data-animate class="text-4xl md:text-5xl font-bold mb-8">Próximos Passos</h2>
+                <div data-animate class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 text-left mb-12">
+                    <h3 class="text-2xl font-semibold mb-4 text-cyan-400">Estamos Buscando:</h3>
+                    <ul class="list-disc list-inside text-xl text-white space-y-2">
+                        <li>Investimento para finalização do design para manufatura (DFM) e primeira produção em lote.
+                        </li>
+                        <li>Parceiros estratégicos para canais de distribuição e validação.</li>
+                    </ul>
+                </div>
+                <h3 data-animate class="text-5xl font-bold text-white mb-4">Obrigado!</h3>
+                <p data-animate class="text-2xl text-gray-400">Perguntas e Respostas</p>
+                <p data-animate class="mt-8 text-lg text-cyan-300">Grupo GM</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Navigation controls -->
+    <div id="presentation-navigation"
+        class="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-black/30 backdrop-blur-sm transition-opacity duration-300">
+        <button id="presentation-prev-slide"
+            class="p-1.5 rounded-full hover:bg-white/10 transition-colors duration-200 disabled:opacity-30 disabled:cursor-not-allowed"
+            aria-label="Slide anterior">
+            <i data-lucide="chevron-left" class="w-5 h-5 text-white/80"></i>
+        </button>
+
+        <div id="presentation-dots" class="flex gap-1.5 items-center">
+            <!-- Navigation dots will be dynamically inserted here by JS -->
+        </div>
+
+        <button id="presentation-next-slide"
+            class="p-1.5 rounded-full hover:bg-white/10 transition-colors duration-200 disabled:opacity-30 disabled:cursor-not-allowed"
+            aria-label="Próximo slide">
+            <i data-lucide="chevron-right" class="w-5 h-5 text-white/80"></i>
+        </button>
+    </div>
+
+    <script src="presentation.js"></script>
+</body>
+
+</html>
